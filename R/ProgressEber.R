@@ -105,7 +105,7 @@ Progress.Ebar<- function(min = 0, max = 1,style = 3,
   structure(list(getVal = getVal, up = up, kill = kill), class = "txtProgressBar")
 
 }
-
+#' @title set.PE
 set.PE<-function (pe, value) {
   title = NULL
   label = NULL
@@ -117,7 +117,7 @@ set.PE<-function (pe, value) {
   invisible(oldval)
 }
 
-gridExtra::grid.arrange()
+#' @title PW.G.labeling
 #' @importFrom patchwork patchworkGrob
 
 PW.G.labeling<-function(pw=NULL,titlelab="title",xlab="xlab",ylab="ylab",
