@@ -7,5 +7,5 @@
 set.PE(pe, value)
 }
 \description{
-set.PE
+\code{set.PE}
 }

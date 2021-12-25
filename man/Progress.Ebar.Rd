@@ -17,5 +17,5 @@ Progress.Ebar(
 )
 }
 \description{
-ProgressEber
+\code{Progress.Eber}
 }

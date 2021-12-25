@@ -16,5 +16,5 @@ PW.G.labeling(
 )
 }
 \description{
-PW.G.labeling
+\code{PW.G.labeling}
 }
