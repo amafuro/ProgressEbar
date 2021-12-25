@@ -5,7 +5,7 @@
 Progress.Ebar<- function(min = 0, max = 1,style = 3,
                          char = "/", char.color = "cyan",
                          bgchar="/", bgchar.color = "red",
-                         text = "word",text.color = "blue") {
+                         text = "逃げちゃだめだ",text.color = "blue") {
   initial = 0
   width = NA
   file = ""
