@@ -1,14 +1,14 @@
 
-# ProgressEber
+# ProgressEbar
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of ProgressEber is to ...
+The goal of ProgressEbar is to ...
 
 ## Installation
 
-You can install the development version of ProgressEber from [GitHub](https://github.com/) with:
+You can install the development version of ProgressEbar from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
