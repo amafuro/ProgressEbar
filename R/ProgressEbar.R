@@ -1,7 +1,16 @@
-#' @title ProgressEber
-#' @description \code{Progress.Eber}
+#' @title ProgressEbar
+#' @description \code{Progress.Ebar} Setting the progress bar parameters
+#'
 #' @importFrom insight color_text
+#' @param max set the max loop numbers
+#' @param char using style1,2,3.   only half-width alphanumeric character
+#' @param char.color "red", "yellow", "green", "blue", "violet", "cyan" or "grey"
+#' @param bgchar using style3
+#' @param text using style4.
 #' @export
+#' @examples
+#' #n<-100
+#' #pe<-Progress.Ebar(max = n，style＝3)
 Progress.Ebar<- function(min = 0, max = 1,style = 3,
                          char = "/", char.color = "cyan",
                          bgchar="/", bgchar.color = "red",
@@ -108,8 +117,19 @@ Progress.Ebar<- function(min = 0, max = 1,style = 3,
 
 }
 #' @title set.PE
-#' @description \code{set.PE}
+#' @description \code{set.PE} Set up a progress bar
 #' @export
+#' @examples
+#' #n<-100
+#' #pe<-Progress.Ebar(min = 1,max = n)
+#' #for (i in seq(n)) {
+#' #set.PE(pe,i)
+#' #Sys.sleep(1 / 100)
+#' #}
+
+
+
+
 set.PE<-function (pe, value) {
   title = NULL
   label = NULL
@@ -122,9 +142,13 @@ set.PE<-function (pe, value) {
 }
 
 #' @title PW.G.labeling
-#' @description \code{PW.G.labeling}
+#' @description \code{PW.G.labeling} pw is patchworked objects
 #' @importFrom patchwork patchworkGrob
 #' @export
+#' @examples
+#' #library(Progress.Ebar)
+#' #plotPW<-p1+p2+p3+p4
+#' #PW.G.labeling(pw=plotPW,titlelab="Pokemon",xlab="name",ylab="HP")
 
 PW.G.labeling<-function(pw=NULL,titlelab="title",xlab="xlab",ylab="ylab",
                         titlefont=25,xfont=20,yfont=20,xhigh=0.3){
