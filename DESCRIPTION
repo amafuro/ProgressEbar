@@ -2,8 +2,6 @@ Package: ProgressEber
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
 Author: amahuro
 Maintainer: amahuro <heizou7087@gmail.com>
 Description: More about what it does (maybe more than one line)
