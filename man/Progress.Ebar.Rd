@@ -2,7 +2,7 @@
 % Please edit documentation in R/ProgressEber.R
 \name{Progress.Ebar}
 \alias{Progress.Ebar}
-\title{タイトル（関数がすることを書くと良い）}
+\title{ProgressEber}
 \usage{
 Progress.Ebar(
   min = 0,
@@ -16,15 +16,6 @@ Progress.Ebar(
   text.color = "blue"
 )
 }
-\arguments{
-\item{引数}{説明}
-}
-\value{
-出力の説明
-}
 \description{
-\code{関数名} 説明（関数がすることを書くと良い）
-}
-\examples{
-関数の例
+ProgressEber
 }

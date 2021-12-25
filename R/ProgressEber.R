@@ -1,11 +1,5 @@
-#' @title タイトル（関数がすることを書くと良い）
-#' @description \code{関数名} 説明（関数がすることを書くと良い）
-#' @importFrom insight gridExtra patchwork
-#' @param 引数 説明
-#' @return 出力の説明
-#' @export
-#' @examples
-#' 関数の例
+#' @title ProgressEber
+#' @importFrom insight color_text
 Progress.Ebar<- function(min = 0, max = 1,style = 3,
                          char = "/", char.color = "cyan",
                          bgchar="/", bgchar.color = "red",
@@ -111,13 +105,7 @@ Progress.Ebar<- function(min = 0, max = 1,style = 3,
   structure(list(getVal = getVal, up = up, kill = kill), class = "txtProgressBar")
 
 }
-#' @title タイトル（関数がすることを書くと良い）
-#' @description \code{関数名} 説明（関数がすることを書くと良い）
-#' @param 引数 説明
-#' @return 出力の説明
-#' @export
-#' @examples
-#' 関数の例
+
 set.PE<-function (pe, value) {
   title = NULL
   label = NULL
@@ -129,13 +117,11 @@ set.PE<-function (pe, value) {
   invisible(oldval)
 }
 
-#' @title タイトル（関数がすることを書くと良い）
-#' @description \code{関数名} 説明（関数がすることを書くと良い）
-#' @param 引数 説明
-#' @return 出力の説明
-#' @export
-#' @examples
-#' 関数の例
+
+#' @importFrom patchwork patchworkGrob
+#' @importFrom gridExtra grid.arrangete
+#' @importFrom grid textGrob
+
 PW.G.labeling<-function(pw=NULL,titlelab="title",xlab="xlab",ylab="ylab",
                         titlefont=25,xfont=20,yfont=20,xhigh=0.3){
   gt<-patchwork::patchworkGrob(pw)
