@@ -117,10 +117,8 @@ set.PE<-function (pe, value) {
   invisible(oldval)
 }
 
-
+gridExtra::grid.arrange()
 #' @importFrom patchwork patchworkGrob
-#' @importFrom gridExtra grid.arrangete
-#' @importFrom grid textGrob
 
 PW.G.labeling<-function(pw=NULL,titlelab="title",xlab="xlab",ylab="ylab",
                         titlefont=25,xfont=20,yfont=20,xhigh=0.3){
