@@ -1,14 +1,11 @@
 
 # ProgressEbar
 
-<!-- badges: start -->
-<!-- badges: end -->
-
-The goal of ProgressEbar is to ...
+エヴァっぽいプログレスバーが作りたくて
 
 ## Installation
 
-You can install the development version of ProgressEbar from [GitHub](https://github.com/) with:
+以下をコピペでインストール
 
 ``` r
 # install.packages("devtools")
@@ -17,12 +14,12 @@ devtools::install_github("amafuro/ProgressEbar")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+Progress.Ebar()の引数をいじれば色々プログレスバーをカスタマイズ出来ます．
 
 ``` r
 library(ProgressEbar)
 
-#style1,2 is prototypes.Main style is 3.
+#style1,2 is prototypes.　Main style is 3.
 #style4　is textProgressbar.
 
 #Progress.Ebar(min = 0,max = 1,style = 3,
