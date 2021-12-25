@@ -12,7 +12,7 @@ You can install the development version of ProgressEber from [GitHub](https://gi
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("amafuro/ProgressEber")
+devtools::install_github("amafuro/ProgressEbar")
 ```
 
 ## Example
@@ -20,7 +20,7 @@ devtools::install_github("amafuro/ProgressEber")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(ProgressEber)
+library(ProgressEbar)
 ## basic example code
 ```
 
