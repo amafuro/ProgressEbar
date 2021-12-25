@@ -1,4 +1,5 @@
 #' @title ProgressEber
+#' @description \code{Progress.Eber}
 #' @importFrom insight color_text
 Progress.Ebar<- function(min = 0, max = 1,style = 3,
                          char = "/", char.color = "cyan",
@@ -106,6 +107,7 @@ Progress.Ebar<- function(min = 0, max = 1,style = 3,
 
 }
 #' @title set.PE
+#' @description \code{set.PE}
 set.PE<-function (pe, value) {
   title = NULL
   label = NULL
@@ -118,6 +120,7 @@ set.PE<-function (pe, value) {
 }
 
 #' @title PW.G.labeling
+#' @description \code{PW.G.labeling}
 #' @importFrom patchwork patchworkGrob
 
 PW.G.labeling<-function(pw=NULL,titlelab="title",xlab="xlab",ylab="ylab",
