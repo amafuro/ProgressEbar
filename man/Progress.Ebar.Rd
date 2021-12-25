@@ -12,7 +12,7 @@ Progress.Ebar(
   char.color = "cyan",
   bgchar = "/",
   bgchar.color = "red",
-  text = "pls set words  ",
+  text = "逃げちゃだめだ　",
   text.color = "blue"
 )
 }
