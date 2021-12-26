@@ -6,6 +6,7 @@
 ## Installation
 
 以下をコピペでインストール
+devtoolsをインストールしてなかったらそれもインストール
 
 ``` r
 # install.packages("devtools")
