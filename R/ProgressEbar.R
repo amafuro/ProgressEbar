@@ -11,7 +11,7 @@
 #' @examples
 #' #n<-100
 #' #pe<-Progress.Ebar(max = n，style＝3)
-Progress.Ebar<- function(min = 0, max = 1,style = 3,
+Progress.Ebar<- function(min = 1, max = 1,style = 3,
                          char = "/", char.color = "cyan",
                          bgchar="/", bgchar.color = "red",
                          text = "逃げちゃだめだ ",text.color = "blue") {

@@ -5,7 +5,7 @@
 \title{ProgressEbar}
 \usage{
 Progress.Ebar(
-  min = 0,
+  min = 1,
   max = 1,
   style = 3,
   char = "/",
