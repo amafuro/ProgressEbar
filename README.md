@@ -17,8 +17,6 @@ devtools::install_github("amafuro/ProgressEbar")
 Progress.Ebar()の引数をいじれば色々プログレスバーをカスタマイズ出来ます．
 
 ``` r
-library(ProgressEbar)
-
 #style1,2 is prototypes.　Main style is 3.
 #style4　is textProgressbar.
 
@@ -27,6 +25,7 @@ library(ProgressEbar)
  #bgchar = "/",bgchar.color = "red",
  #text = "逃げちゃだめだ ",text.color = "blue)
  
+library(ProgressEbar)
 n<-100
 pe<-Progress.Ebar(min = 1,max = n,style = 3)
 
