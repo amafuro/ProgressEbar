@@ -153,9 +153,9 @@ set.PE<-function (pe, value) {
 PW.G.labeling<-function(pw=NULL,titlelab="title",xlab="xlab",ylab="ylab",
                         titlefont=25,xfont=20,yfont=20,xhigh=0.3){
   gt<-patchwork::patchworkGrob(pw)
-  tl=grid::textGrob(titlelab,gp=gpar(fontsize=titlefont))
-  ll=grid::textGrob(ylab,gp=gpar(fontsize=yfont),rot = 90)
-  bl=grid::textGrob(xlab,gp=gpar(fontsize=xfont),vjust = xhigh)
+  tl=grid::textGrob(titlelab,gp=grid:gpar(fontsize=titlefont))
+  ll=grid::textGrob(ylab,gp=grid:gpar(fontsize=yfont),rot = 90)
+  bl=grid::textGrob(xlab,gp=grid:gpar(fontsize=xfont),vjust = xhigh)
   pwf<-gridExtra::grid.arrange(gt,top=tl,left=ll,bottom=bl)
   print(pwf)
 }
